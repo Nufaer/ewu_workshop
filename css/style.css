@@ -1,0 +1,24 @@
+
+section{
+    justify-content: center;
+    text-align: center;
+    background-color: #D8BFD8;
+    padding: 50px;
+}
+.cont{
+background-color: #DDA0DD;
+padding: 20px;
+border-radius: 30px;
+}
+
+table{
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: #FFC0CB;
+}
+
+img{
+    height: 200px;
+    width: 250px;
+}
