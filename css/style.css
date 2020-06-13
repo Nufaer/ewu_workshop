@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+p{
+    color: gray;
+    margin-bottom: 0;
+}
 .navbr{
     background-color: #f6f9f9;
     padding: 0 50px;
@@ -37,11 +41,13 @@
     background-color: transparent;
     border-color: #15a4fa;
     margin: 20px;
+    font-weight: 400;
 }
 .btn-primary:hover{
     color: #fff;
     background-color: #15a4fa;
     border-color: transparent;
+    font-weight: 600;
 }
 .bn_icon{
     position: absolute;
@@ -156,21 +162,42 @@
     color: white;
     padding: 10px;
 }
-.sty form{
+.form-control{
     background-color: transparent;
-    color: white;
+}
+#formGroupExampleInput3{
+    height: 100px;
+}
+.form-check{
+    text-align: left;
+    color: gray;
+}
+.sty .btn{
+    margin: 0 0 0 88%;
 }
 .ftr{
     background-color: #f6f9f9;
-    padding: 20px;
+    padding: 15px;
 }
-.ftr .icn{
-    text-align-last: right;
+.ftr_cont{
+    display: flex;
+    margin: 0 10%;
+}
+.ftr ul{
+    display: flex;
+    margin-bottom: 0;
+}
+.ftr li{
+    background-color: #15a4fa;
+    color: white;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    list-style: none;
+    margin: 0 2px;
 }
 .ftr i{
-    background-color: #15a4fa;
     font-size: 20px;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
+    line-height: 35px;
 }
