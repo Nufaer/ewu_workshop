@@ -10,6 +10,9 @@ p{
     background-color: #f6f9f9;
     padding: 0 50px;
 }
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: 600;
+}
 .banner{
     background-image: url(../images/banner.png);
     background-position: center;
@@ -172,8 +175,11 @@ p{
     text-align: left;
     color: gray;
 }
-.sty .btn{
-    margin: 0 0 0 88%;
+.jhamela{
+    display: flex;
+}
+.jhamela .btn{
+    margin: 0;
 }
 .ftr{
     background-color: #f6f9f9;
@@ -181,7 +187,6 @@ p{
 }
 .ftr_cont{
     display: flex;
-    margin: 0 10%;
 }
 .ftr ul{
     display: flex;
